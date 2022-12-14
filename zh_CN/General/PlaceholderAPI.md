@@ -12,7 +12,7 @@
 | %wkkit_servermenus%           | 服务器总菜单数                 |                |
 | %wkkit_serverkits%            | 服务器总礼包数                 |                |
 | %wkkit_name_<礼包名>%       | 指定礼包的礼包名               |                |
-| %wkkit_times_<礼包名>%      | 指定礼包的默认领取次数         | 没用则返回-1   |
+| %wkkit_times_<礼包名>%      | 指定礼包的默认领取次数         | 没有则返回-1   |
 | %wkkit_delay_<礼包名>%      | 指定礼包的默认冷却值           | 没有则返回0    |
 | %wkkit_permission_<礼包名>% | 指定礼包的所需权限             |                |
 | %wkkit_tonext_<礼包名>%     | 指定礼包距离下次刷新的大致时间 | 没有则返回None |
