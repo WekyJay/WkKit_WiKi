@@ -27,7 +27,7 @@ Menu1:
          slot: 23
 Menu2:
    Title: "§a礼包菜单2"
-   Permission: 'wkkit.Menu3'
+   Permission: 'wkkit.Menu2'
    Type: CHEST
    Size: 6
    Slots:

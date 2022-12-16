@@ -8,7 +8,6 @@ NCKit:
   # 礼包的展示名
   Name: '§e新人礼包'
   # 礼包的展示图标
-  # SkullIcon 为头颅数据展示，由于版本之间的兼容问题，默认为TypeIcon。
   Icon: 'CHEST'
   # 指令可选择CMD、OP,不填则为该玩家自己发送
   # 变量{player}代表触发指令的玩家
@@ -36,7 +35,7 @@ NCKit:
      - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
 DropKit:
    Name: '§a掉落礼包'
-   # 掉落礼包目前只支持SkullIcon
+   # [SKULL]标签开头的为头颅数据展示。
    Icon: '[SKULL]{display:{Name:"Present (red)"},SkullOwner:{Id:"dca29a3a-76d3-4979-88a2-2da034b99212",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlZjlhYTE0ZTg4NDc3M2VhYzEzNGE0ZWU4OTcyMDYzZjQ2NmRlNjc4MzYzY2Y3YjFhMjFhODViNyJ9fX0="}]}}}'
    Commands: 
      - 'CMD:give {player} apple'
@@ -63,7 +62,7 @@ DropKit:
       - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
 DelayKit:
   Name: '§e冷却礼包'
-  Permission: 'wkkit.DailyKit'
+  Permission: 'wkkit.DelayKit'
   Icon: 'BOOK'
   Delay: '60'
   Lore:
@@ -119,7 +118,7 @@ DailyKit:
      - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
 MonthlyKit:
   Name: '§e每月礼包' # 次月自动刷新
-  Permission: 'wkkit.ServerKit'
+  Permission: 'wkkit.MonthlyKit'
   Icon: 'BOOK'
   DoCron: '0 0 0 1 * ? *' # Cron表达式
   Commands: 
