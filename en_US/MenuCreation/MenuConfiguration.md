@@ -1,8 +1,8 @@
 # Menu Configuration
 
-As you can see, this plugin provides you with a menu creation function, but this does not mean that it can replace the excellent menu plugin *(e.g. TrMenu,DeluexMenu)* . I am not going to integrate most menu functions, but only provide basic kit distribution. Of course, kit can also be used with other menu plugins!
+As you can see, this plugin provides you with a menu creation function, but this does not mean that it can replace the excellent menu plugin *(e.g. TrMenu,DeluexMenu)*. I am not going to integrate most menu functions, but only provide basic kit distribution. Of course, kit can also be used with other menu plugins!
 
-> First of all, we should know that all the created menus are located in the：**.\plugins\WkKit\Menus**
+> First of all, we should know that all the created menus are located in the： **.\plugins\WkKit\Menus**
 
 ---
 
