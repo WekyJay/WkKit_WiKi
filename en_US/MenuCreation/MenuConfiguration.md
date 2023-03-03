@@ -169,6 +169,8 @@ Two of them need to be discussed separately:
 
 **Slot：** We can see that there are two symbols in `0-8, 45-53` ,one is a comma `,` and the other is a minus sign `-`.
 
+💡(Since 1.0.9) **Menu supports CustomModelData material icons**：Add in the slot that needs to be adjusted (all lowercase)`custommodeldata: <data value>`
+
 > A comma represents the end of a position, that is, the positions where our Slot is placed are 0-8 and 45-53, while a minus sign represents the same Slot placed in a series of consecutive positions. For example, 0-8 means that Default is placed from 0 to 8, and 45-53 means from 45 to 53.
 
 #### **Kit Slot**

@@ -84,6 +84,7 @@ HelpKit:
   Permission: 'wkkit.HelpKit'
   Icon: 'BOOK'
   Times: 3
+  Vault: 10
   DoCron: '0 0 0 * * ? *' # Cron expression
   Lore:
      - '§b| Lore： §8You can get it once a day - total 3 times.'
@@ -178,6 +179,11 @@ Cool-Down Kit，Fill in this tag, and every time the player collects it, he need
 ### Times
 
 **The number of times a Kit can be collected** ，This tag sets the number of times the kit can be collected, that is, the kit is put into the menu. If the value is set to 3, the player cannot continue to collect it after receiving it three times. If it is not set, it defaults to unlimited collection.
+
+
+### Vault
+
+**Kit collection fee** ，This option sets the cost required to receive the kit. If the player has the ability to pay, the fee will be deducted, otherwise it cannot be claimed.
 
 ### DoCron
 
