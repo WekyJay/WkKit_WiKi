@@ -17,6 +17,8 @@ Default:
    Delay: 60
    # 默认礼包的展示
    Icon: 'CHEST'
+   # 自动穿戴装备
+   AutoEquipment: true
    # 上次重置插件或关闭插件的时间
    ShutDate: 'None'
    # 防崩服刷新礼包检查时间,单位：分钟/次(0为不开启)

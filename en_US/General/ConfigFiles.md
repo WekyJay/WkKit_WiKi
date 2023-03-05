@@ -19,6 +19,8 @@ Default:
    Delay: 60
    # Default display icon of kit. 
    Icon: 'CHEST'
+   # This option controls the automatic wearing of equipment when receiving Kit.
+   AutoEquipment: true
    # When plugin was by reload or server was by closed it will be record right here.
    ShutDate: 'None'
    # Kit auto refresh time recorder, Don't care about that. (Time unit: minutes)

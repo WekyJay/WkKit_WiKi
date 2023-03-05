@@ -8,7 +8,6 @@
 | 变量                          | 描述                           | 备注           |
 | ------------------------------- | -------------------------------- | ---------------- |
 | %wkkit_kitmail%               | Total kit number of player's mailbox.         |                |
-| %wkkit_cronkits%              | Number of Kits refreshed by cron of server.             |                |
 | %wkkit_servermenus%           | Total number of server menus                 |                |
 | %wkkit_serverkits%            | Total number of server kits                 |                |
 | %wkkit_name_< KitID >%       | Specifies the DisplayName of the KitID.               |                |
