@@ -139,6 +139,29 @@ MonthlyKit:
      - '{id:"minecraft:iron_axe",Count:1b,Damage:0s}'
      - '{id:"minecraft:iron_pickaxe",Count:1b,Damage:0s}'
      - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
+SpecifiedDateKit:
+  Name: '§e指定日期礼包' 
+  Permission: 'wkkit.ServerKit'
+  Icon: 'BOOK'
+  DoCron: '0 0 0 1 * ? *'
+  NoRefreshFirst: true # 首次不开启礼包领取，到指定日期后自动开启。
+  Commands:
+    - 'CMD:give {player} apple'
+    - 'OP:give {player} apple'
+    - 'give {player} apple'
+  Lore:
+    - '§b| 礼包介绍： §8指定日期和时间可领取'
+  Item:
+    - '{id:"minecraft:apple",Count:64b,Damage:0s}'
+    - '{id:"minecraft:iron_helmet",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_chestplate",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_leggings",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_boots",Count:1b,Damage:0s}'
+    - '{id:"minecraft:bread",Count:64b,Damage:0s}'
+    - '{id:"minecraft:milk_bucket",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_axe",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_pickaxe",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
 ```
 
 ## NCKit(不可删除)
@@ -167,6 +190,12 @@ DropKit:
 
 以 **[SKULL]** 开头后接**头颅数据**就可以识别为一个以头颅数据做图标的礼包，你可以杀一个僵尸试试看效果，前提是你没有删除我的默认配置文件。（具体使用方法可以在[常见问题](zh_CN/General/Questions.md)中找到）
 
+另外，如果你想使用CustomModelData搭配IA使用，可以像下面的代码一样配置：
+```yaml
+Kit的ID:
+   Name: '§a自定义IA图标'
+   Icon: '[CUSTOMDATA]GRASS:{data的值}'
+```
 ### Delay
 
 **该项不影响菜单领取，仅在玩家获得实体礼包右键使用**
@@ -187,6 +216,9 @@ DropKit:
 ### DoCron
 
 **礼包自动刷新** ，如果开启了这项，那么礼包将在设定好的特定时间或每一个特定时间点自动刷新礼包的领取状态，例如每周一晚零点自动刷新，可以作为每周礼包使用，该功能过于强大，你将会在下一节的[**Cron表达式**](zh_CN/KitCreation/CronExpression.md)中学习到如何配置参数。
+
+### NoRefreshFirst
+**礼包首次不开启** ，首次配置后不开启礼包领取，直到Docron设定的日期刷新后，开启第一次领取。
 
 ### Drop
 

@@ -140,6 +140,30 @@ MonthlyKit:
      - '{id:"minecraft:iron_axe",Count:1b,Damage:0s}'
      - '{id:"minecraft:iron_pickaxe",Count:1b,Damage:0s}'
      - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
+SpecifiedDateKit:
+  Name: '§eSpecified Date Kit'
+  Permission: 'wkkit.ServerKit'
+  Icon: 'BOOK'
+  DoCron: '0 0 0 1 * ? *'
+  # Do not open the kit for the first time, and open it automatically after the specified date.
+  NoRefreshFirst: true 
+  Commands:
+    - 'CMD:give {player} apple'
+    - 'OP:give {player} apple'
+    - 'give {player} apple'
+  Lore:
+    - '§b| 礼包介绍： §8指定日期和时间可领取'
+  Item:
+    - '{id:"minecraft:apple",Count:64b,Damage:0s}'
+    - '{id:"minecraft:iron_helmet",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_chestplate",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_leggings",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_boots",Count:1b,Damage:0s}'
+    - '{id:"minecraft:bread",Count:64b,Damage:0s}'
+    - '{id:"minecraft:milk_bucket",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_axe",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_pickaxe",Count:1b,Damage:0s}'
+    - '{id:"minecraft:iron_shovel",Count:1b,Damage:0s}'
 ```
 
 ## NCKit(Do not delete)
@@ -168,6 +192,12 @@ DropKit:
 
 Beginning with **[SKULL]** followed by **SKULL data** can be recognized as a kit with SKULL data as an icon,You can kill a zombie and try it out If you didn't delete my default profile.(The specific usage can be found in **[Questions](en_US/General/Questions.md)**)
 
+BTW, if you want to use `CustomModelData` with IA, you can configure it like the following code:
+```yaml
+AKit:
+   Name: '§aCustom IA icon'
+   Icon: '[CUSTOMDATA]{MaterialID}:{Data Value}'
+```
 ### Delay
 
 **This item does not affect the menu collection, and is only used when the player gets the Kit Item right click.**
@@ -188,6 +218,9 @@ Cool-Down Kit，Fill in this tag, and every time the player collects it, he need
 ### DoCron
 
 **Use cron expression automatic refresh kit** ，If fill in this tag，then the kit will automatically refresh the collection status of the kit at a set specific time or every specific time point，For example, the automatic refresh at zero every night can be used as a weekly kit, which is too powerful，you will learn it in the next page [**CronExpression**](en_US/KitCreation/CronExpression.md).
+
+### NoRefreshFirst
+**Kit will not be enabled for the first time**. After the first configuration, kit collection will not be enabled until the date set by Docron is refreshed, and the first collection will be enabled.
 
 ### Drop
 

@@ -6,8 +6,12 @@
 Setting:
    # 是否开启礼包上线提示领取
    OnlineReminder: true
+   # 是否开启更新检查
    ChackUpdate: true
+   # 语言文件（对应Language内的文件名称）
    Language: 'zh_CN'
+   # 开启DeBug模式（仅用于开发测试，勿开）
+   DeBug: false
 Default:
    # 默认礼包展示名
    Name: '§6Server Kit'
@@ -37,6 +41,10 @@ NewComer:
    Kit: 'NCKit'
    # 是否自动发放
    Auto: true
+   # 发放方式(1:发送单个礼包 2：发送礼包内容)
+   Mode: 1
+   # 严格检测模式(如果开启则严格检测游戏数据,即使数据丢失玩过的玩家也不会发放。)
+   Strict: false
 KitCode:
    # CDK密钥(不要随意改动)
    Key: 'none'

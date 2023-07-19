@@ -39,5 +39,6 @@
 | /wk help                | Plugin help.                                 | –                 |         |
 | /wk open < MenuID >     | Open the specified menu                      | wkkit.open         | Default |
 | /wk mail                | Open the MailBox                             | wkkit.mail         | Default |
+| /wk info                | Display the specified kit content items.          | wkkit.info         | |
 | /wk cdk verify < CDK >  | Verify the information of the specified CDK. | wkkit.cdk.verify   | Default |
 | /wk cdk exchange< CDK > | Exchange specified CDK.                      | wkkit.cdk.exchange | Default |

@@ -10,6 +10,7 @@ Setting:
    OnlineReminder: true
    ChackUpdate: true
    Language: 'en_US'
+   DeBug: false
 Default:
    # Default display name of kit.
    Name: '§6Server Kit'
@@ -39,6 +40,12 @@ NewComer:
    Kit: 'NCKit'
    # Whether send newcomer kit auto.
    Auto: true
+   # Send mode (1: Send a single kit 2: Send kit contents)
+   Mode: 1 
+   # Strict detection mode 
+   # if it is turned on, the game data will be strictly detected.
+   # And even if the data is lost, players who have played will not distribute it.
+   Strict: false
 KitCode:
    # CDK Key (don't change it at will)
    Key: 'none'
