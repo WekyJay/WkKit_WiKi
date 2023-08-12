@@ -31,6 +31,11 @@ GUI:
    GetAllMaterial: 'Default'
    TurnPageMaterial: 'SLIME_BALL'
    MenuMaterial: 'Default'
+   # CustomModelId
+   GetAll-CustomModelId: 10004
+   TurnPrePage-CustomModelId: 10000
+   TurnNextPage-CustomModelId: 10001
+   Menu-CustomModelId: 20003
    # Close the GUI after receiving the kit.
    ClickClose: true
 NewComer:

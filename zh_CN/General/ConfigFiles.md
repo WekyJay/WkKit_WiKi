@@ -28,12 +28,19 @@ Default:
    # 防崩服刷新礼包检查时间,单位：分钟/次(0为不开启)
    AntiShutDown: 5
 GUI:
-   GetAllMaterial: 'Default'
-   TurnPageMaterial: 'SLIME_BALL'
-   #菜单栏材质
-   MenuMaterial: 'Default'
-   # 领取礼包后关闭GUI
-   ClickClose: true
+  # 全部领取材质
+  GetAllMaterial: 'Default'
+  # 翻页材质
+  TurnPageMaterial: 'SLIME_BALL'
+  # 菜单栏材质
+  MenuMaterial: 'Default'
+  # CustomModelId
+  GetAll-CustomModelId: 10004 # 领取全部CustomModelId
+  TurnPrePage-CustomModelId: 10000 # 上一页CustomModelId
+  TurnNextPage-CustomModelId: 10001 # 下一页CustomModelId
+  Menu-CustomModelId: 20003 # 菜单栏CustomModelId
+  # 领取礼包后关闭GUI
+  ClickClose: true
 NewComer:
    # 是否开启新人礼包
    Enable: true
