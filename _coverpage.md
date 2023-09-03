@@ -4,9 +4,9 @@
 
 > WkHouse's Plugins —— Welcome to wiki of WkKit.
 
-📃当前文档对应插件版本: 1.2.1
+📃当前文档对应插件版本: 1.2.3
 
-📃The current document corresponds to the plug-in version： 1.2.1
+📃The current document corresponds to the plug-in version： 1.2.3
 
 [简体中文](zh_CN/README.md)
 [**English**](en_US/README.md)
