@@ -35,11 +35,12 @@
 <font color="#a19f9d">从1.0.7开始玩家默认拥有以下Default标注的指令的权限。</font><br />
 
 
-| Command                   | Usage                 | Permission         | P.S.    |
-| --------------------------- | ----------------------- | -------------------- | --------- |
-| /wk help                  | 插件指令详情          | –                 |         |
-| /wk open <菜单名称>       | 打开指定菜单          | wkkit.open         | Default |
-| /wk mail                  | 打开礼包邮箱          | wkkit.mail         | Default |
-| /wk info                  | 预览指定礼包          | wkkit.info         |         |
-| /wk cdk verify <礼包CDK>  | 验证查询指定CDK的信息 | wkkit.cdk.verify   | Default |
-| /wk cdk exchange<礼包CDK> | 兑换指定的CDK         | wkkit.cdk.exchange | Default |
+| Command                   | Usage                                             | Permission         | P.S.    |
+| --------------------------- | --------------------------------------------------- | -------------------- | --------- |
+| /wk help                  | 插件指令详情                                      | –                 |         |
+| /wk open <菜单名称>       | 打开指定菜单                                      | wkkit.open         | Default |
+| /wk mail                  | 打开礼包邮箱                                      | wkkit.mail         | Default |
+| /wk get <礼包名>          | 通过指令的形式领取礼包,该指令与菜单内领取条件相同 | wkkit.get          |         |
+| /wk info                  | 预览指定礼包                                      | wkkit.info         |         |
+| /wk cdk verify <礼包CDK>  | 验证查询指定CDK的信息                             | wkkit.cdk.verify   | Default |
+| /wk cdk exchange<礼包CDK> | 兑换指定的CDK                                     | wkkit.cdk.exchange | Default |
