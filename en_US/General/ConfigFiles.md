@@ -4,6 +4,10 @@
 
 ```yaml
 Setting:
+   # Whether to enable the use of the Get command of the simulation menu
+   # This configuration is to allow the server to control 
+   # whether to use other menu plug-ins to achieve the effect of the package in the menu
+   UseCommandGet: true
    # When you enter 'true ', it means that the player login prompt is turned on.
    # e.g. If player's MailBox has kits which is not collected, 
    # The WkKit will be prompt this player when player into server.

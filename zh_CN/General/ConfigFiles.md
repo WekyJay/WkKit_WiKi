@@ -4,6 +4,9 @@
 
 ```yaml
 Setting:
+   # 是否开启模拟菜单的Get指令使用
+   # 这个配置是为了让服务器能够控制是否使用其他菜单插件来实现菜单内的礼包领取效果
+  UseCommandGet: true
    # 是否开启礼包上线提示领取
    OnlineReminder: true
    # 是否开启更新检查
