@@ -3,6 +3,7 @@
 - **General**
   - [Home](en_US/README.md)
   - [Commands](en_US/General/Commands.md)
+  - [v1.5.0 Architecture](en_US/General/Architecture_v1.5.0.md)
   - [PlaceholderAPI](en_US/General/PlaceholderAPI.md)
   - [Config Files](en_US/General/ConfigFiles.md)
   - [Questions](en_US/General/Questions.md)

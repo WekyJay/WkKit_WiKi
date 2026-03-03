@@ -3,6 +3,7 @@
 - **基本信息**
   - [插件介绍](zh_CN/README.md)
   - [指令与权限](zh_CN/General/Commands.md)
+  - [v1.5.0架构详解](zh_CN/General/Architecture_v1.5.0.md)
   - [PAPI变量](zh_CN/General/PlaceholderAPI.md)
   - [配置文件](zh_CN/General/ConfigFiles.md)
   - [常见问题](zh_CN/General/Questions.md)
