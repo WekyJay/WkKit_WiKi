@@ -14,3 +14,6 @@
   - [配置参数](zh_CN/MenuCreation/MenuConfiguration.md)
 - **其他功能**
   - [CDK兑换码](zh_CN/OtherFunction/CDK.md)
+- **开发文档**
+  - [Plan模式开发指南](zh_CN/Development/PlanMode/README.md)
+  - [Day 1进度报告](zh_CN/Development/PlanMode/Day1_Progress_Report.md)

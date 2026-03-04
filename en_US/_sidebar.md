@@ -14,3 +14,6 @@
   - [Menu Configuration](en_US/MenuCreation/MenuConfiguration.md)
 - **Other Function**
   - [CDK](en_US/OtherFunction/CDK.md)
+- **Development**
+  - [Plan Mode Guide](en_US/Development/PlanMode/README.md)
+  - [Day 1 Progress Report](en_US/Development/PlanMode/Day1_Progress_Report.md)
