@@ -4,6 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
+  base: '/WkKit_WiKi/',
   lang: 'zh-CN',
   title: 'WkKit',
   description: 'WkKit - Minecraft 礼包管理插件文档',
