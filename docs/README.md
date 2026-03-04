@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/logo.png
 heroText: WkKit
- tagline: Minecraft 礼包管理插件
+tagline: Minecraft 礼包管理插件
 copyright: false
 
 actions:
