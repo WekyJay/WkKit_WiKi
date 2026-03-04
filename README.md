@@ -1,49 +1,38 @@
-# WIKI更新日志
+# WkKit WiKi
 
-**当前文档对应插件版本**: 💡1.5.0 (架构重构版)
+[![VuePress](https://img.shields.io/badge/docs-VuePress-brightgreen.svg)](https://vuepress.vuejs.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-WekyJay-blue.svg)](https://github.com/WekyJay/WkKit)
 
-## 🚀 v1.5.0 重大更新 (2026-03-03)
+WkKit 插件官方文档站点 - 使用 VuePress 构建
 
-### 架构重构
-- **现代化核心模型**: 不可变对象 + Builder模式
-- **统一异常处理**: 替换51处printStackTrace调用
-- **模块化设计**: 配置加载、数据验证、业务逻辑分离
-- **新版命令系统**: 统一验证、智能补全、异步支持
+## 📚 在线文档
 
-### 功能增强
-- **完整验证系统**: 权限、冷却、使用次数、背包空间
-- **异步操作**: 礼包发放不阻塞服务器主线程
-- **详细反馈**: 清晰的错误提示和成功确认
-- **性能优化**: 缓存友好、资源管理优化
+- 中文文档: [https://wekyjay.github.io/WkKit_WiKi/](https://wekyjay.github.io/WkKit_WiKi/)
+- English Docs: [https://wekyjay.github.io/WkKit_WiKi/en/](https://wekyjay.github.io/WkKit_WiKi/en/)
 
-### 向后兼容
-- ✅ 现有配置完全兼容
-- ✅ 旧命令系统继续工作
-- ✅ 数据格式保持不变
-- ✅ 渐进式迁移支持
+## 🚀 本地开发
 
----
+```bash
+# 安装依赖
+npm install
 
-## 历史更新记录
+# 启动开发服务器
+npm run docs:dev
 
-2023/9/03 更新配置文件 1 个.
+# 构建
+npm run docs:build
+```
 
-2023/8/08 更新指令 1 条、配置文件 1 个.
+## 📖 文档版本
 
-2023/8/08 添加新版调查问卷
+**当前文档对应插件版本**: v1.5.0
 
-2023/7/22 添加常见问题 1 条.
+## 🛠️ 技术栈
 
-2023/7/19 更新1.1.8版本插件使用的wiki.
+- [VuePress 2](https://vuepress.vuejs.org/) - 静态站点生成器
+- [Vue 3](https://vuejs.org/) - 前端框架
+- [Vite](https://vitejs.dev/) - 构建工具
 
-2023/3/5 更新1.1.1版本插件使用的wiki,删除无用的标识，首页新增对应插件版本提示.
+## 📄 许可证
 
-2023/3/3 文档使用更新.
-
-2023/1/16 更改CDN源，添加ICON.
-
-2023/1/13 简体中文Send指令遗漏指令补充。
-
-2022/12/16 新增阅读进度条，修正部分配置及文字错误。
-
-2022/12/14 英语WIKI上线，修复部分错误。
+[MIT](LICENSE)
