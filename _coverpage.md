@@ -8,5 +8,5 @@
 
 📃The current document corresponds to the plug-in version： 1.2.3
 
-[简体中文](zh_CN/README.md)
-[**English**](en_US/README.md)
+[简体中文](zh_CN/README)
+[**English**](en_US/README)

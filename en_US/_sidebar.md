@@ -3,26 +3,26 @@
 # 📚 WkKit Documentation
 
 ## 🚀 Quick Start
-- [Quick Start Guide](QuickStart/README.md)
+- [Quick Start Guide](QuickStart/README)
 
 ## 🎯 Core Features
-- [Kit System](CoreFeatures/KitSystem/README.md)
-- [Menu System](CoreFeatures/MenuSystem/README.md)
-- [CDK System](CoreFeatures/CDKSystem/README.md)
+- [Kit System](CoreFeatures/KitSystem/README)
+- [Menu System](CoreFeatures/MenuSystem/README)
+- [CDK System](CoreFeatures/CDKSystem/README)
 
 ## ⚙️ Configuration Guide
-- [Configuration Files](Configuration/ConfigFiles.md)
-- [Cron Expressions](Configuration/CronExpression.md)
-- [PlaceholderAPI](Configuration/PlaceholderAPI.md)
+- [Configuration Files](Configuration/ConfigFiles)
+- [Cron Expressions](Configuration/CronExpression)
+- [PlaceholderAPI](Configuration/PlaceholderAPI)
 
 ## 📖 Commands Reference
-- [Commands Manual](CommandsReference/README.md)
+- [Commands Manual](CommandsReference/README)
 
 ## ❓ FAQ
-- [Frequently Asked Questions](FAQ/README.md)
+- [Frequently Asked Questions](FAQ/README)
 
 ## 🔧 Advanced Features
-- [v1.5.0 Architecture](Advanced/v1.5.0_Architecture.md)
+- [v1.5.0 Architecture](Advanced/v1.5.0_Architecture)
 
 ---
 
