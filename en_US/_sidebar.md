@@ -1,19 +1,30 @@
-<!-- docs/en_US/_sidebar.md -->
+<!-- WkKit English Documentation Sidebar -->
 
-- **General**
-  - [Home](en_US/README.md)
-  - [Commands](en_US/General/Commands.md)
-  - [v1.5.0 Architecture](en_US/General/Architecture_v1.5.0.md)
-  - [PlaceholderAPI](en_US/General/PlaceholderAPI.md)
-  - [Config Files](en_US/General/ConfigFiles.md)
-  - [Questions](en_US/General/Questions.md)
-- **Kit Creation**
-  - [Kit Configuration](en_US/KitCreation/KitConfiguration.md)
-  - [Cron Expression](en_US/KitCreation/CronExpression.md)
-- **Menu Creation**
-  - [Menu Configuration](en_US/MenuCreation/MenuConfiguration.md)
-- **Other Function**
-  - [CDK](en_US/OtherFunction/CDK.md)
-- **Development**
-  - [Plan Mode Guide](en_US/Development/PlanMode/README.md)
-  - [Day 1 Progress Report](en_US/Development/PlanMode/Day1_Progress_Report.md)
+# 📚 WkKit Documentation
+
+## 🚀 Quick Start
+- [Quick Start Guide](QuickStart/README.md)
+
+## 🎯 Core Features
+- [Kit System](CoreFeatures/KitSystem/README.md)
+- [Menu System](CoreFeatures/MenuSystem/README.md)
+- [CDK System](CoreFeatures/CDKSystem/README.md)
+
+## ⚙️ Configuration Guide
+- [Configuration Files](Configuration/ConfigFiles.md)
+- [Cron Expressions](Configuration/CronExpression.md)
+- [PlaceholderAPI](Configuration/PlaceholderAPI.md)
+
+## 📖 Commands Reference
+- [Commands Manual](CommandsReference/README.md)
+
+## ❓ FAQ
+- [Frequently Asked Questions](FAQ/README.md)
+
+## 🔧 Advanced Features
+- [v1.5.0 Architecture](Advanced/v1.5.0_Architecture.md)
+
+---
+
+*Document Version: v1.5.0*  
+*Last Updated: 2026-03-04*

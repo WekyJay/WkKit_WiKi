@@ -1,19 +1,31 @@
-<!-- docs/zh_CN/_sidebar.md -->
+<!-- WkKit 中文文档侧边栏 -->
 
-- **基本信息**
-  - [插件介绍](zh_CN/README.md)
-  - [指令与权限](zh_CN/General/Commands.md)
-  - [v1.5.0架构详解](zh_CN/General/Architecture_v1.5.0.md)
-  - [PAPI变量](zh_CN/General/PlaceholderAPI.md)
-  - [配置文件](zh_CN/General/ConfigFiles.md)
-  - [常见问题](zh_CN/General/Questions.md)
-- **礼包功能**
-  - [配置参数](zh_CN/KitCreation/KitConfiguration.md)
-  - [Cron表达式](zh_CN/KitCreation/CronExpression.md)
-- **菜单功能**
-  - [配置参数](zh_CN/MenuCreation/MenuConfiguration.md)
-- **其他功能**
-  - [CDK兑换码](zh_CN/OtherFunction/CDK.md)
-- **开发文档**
-  - [Plan模式开发指南](zh_CN/Development/PlanMode/README.md)
-  - [Day 1进度报告](zh_CN/Development/PlanMode/Day1_Progress_Report.md)
+# 📚 WkKit 文档
+
+## 🚀 快速开始
+- [快速入门](快速开始/README.md)
+
+## 🎯 核心功能
+- [礼包系统](核心功能/礼包系统/README.md)
+  - [配置详解](核心功能/礼包系统/配置详解.md)
+- [菜单系统](核心功能/菜单系统/README.md)
+- [CDK系统](核心功能/CDK系统/README.md)
+
+## ⚙️ 配置指南
+- [配置文件详解](配置指南/配置文件详解.md)
+- [Cron表达式](配置指南/Cron表达式.md)
+- [PlaceholderAPI](配置指南/PlaceholderAPI.md)
+
+## 📖 命令参考
+- [命令手册](命令参考/README.md)
+
+## ❓ 常见问题
+- [FAQ](常见问题/README.md)
+
+## 🔧 高级功能
+- [v1.5.0架构详解](高级功能/v1.5.0架构详解.md)
+
+---
+
+*文档版本: v1.5.0*  
+*最后更新: 2026-03-04*
