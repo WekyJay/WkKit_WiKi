@@ -28,10 +28,23 @@
         // 确保每个语言目录使用自己的侧边栏
         '/zh_CN/(.*)/_sidebar.md': '/zh_CN/_sidebar.md',
         '/en_US/(.*)/_sidebar.md': '/en_US/_sidebar.md',
+        '/en/(.*)/_sidebar.md': '/en/_sidebar.md',
         '/zh_CN/_sidebar.md': '/zh_CN/_sidebar.md',
         '/en_US/_sidebar.md': '/en_US/_sidebar.md',
+        '/en/_sidebar.md': '/en/_sidebar.md',
         // 默认侧边栏
-        '/_sidebar.md': '/zh_CN/_sidebar.md'
+        '/_sidebar.md': '/zh_CN/_sidebar.md',
+        // 路径别名 - 修复 404 问题
+        '/en/config': '/en/config/README.md',
+        '/en/config/': '/en/config/README.md',
+        '/en/features': '/en/features/README.md',
+        '/en/features/': '/en/features/README.md',
+        '/en/faq': '/en/faq/README.md',
+        '/en/faq/': '/en/faq/README.md',
+        '/en/guide': '/en/guide/README.md',
+        '/en/guide/': '/en/guide/README.md',
+        '/en/commands': '/en/commands/README.md',
+        '/en/commands/': '/en/commands/README.md'
       },
       // complete configuration parameters
       search: {
