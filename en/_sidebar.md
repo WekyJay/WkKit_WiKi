@@ -1,0 +1,6 @@
+- [Home](/en/)
+- [Guide](/en/guide/)
+- [Configuration](/en/config/)
+- [Commands](/en/commands/)
+- [Features](/en/features/)
+- [FAQ](/en/faq/)
